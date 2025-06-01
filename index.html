@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= initial-scale=1.0">
+    <title>KARAN-PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color:  rgb(18 16 45);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color:  rgb(25 22 61);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        .left {
+            font-size: 1.5rem
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 100px 0;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 75px 0;
+            user-select: none;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Poppins';
+        }
+
+        .rightsection {
+            user-select: none;
+
+        }
+
+        .firstsection div {
+            width: 30%;
+        }
+
+        .rightsection img {
+            height: 400px;
+            width: 400px;
+            margin: 0px 0;
+        }
+
+        .color {
+            color: #8266ca;
+            ;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        ul li a:hover {
+            color: rgb(160, 150, 243);
+            font-size: 1.03rem;
+        }
+
+        #element {
+            color: rgb(160, 150, 243)
+        }
+
+        .secondsection {
+            height: 100vh;
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        main hr {
+            border: 0;
+            height: 1px;
+            background: rgb(92, 91, 194);
+            margin: 40px 100px;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+        .grey-text {
+            color: #d3d3d3a8;
+        }
+
+        .secondsection .horizental {
+            background-color: white;
+            height: 2px;
+            margin: 70px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 500px;
+            background: white;
+            width: 1px;
+            margin: 0 90px;
+
+
+        }
+
+        img {
+
+            height: 23px;
+            position: relative;
+            right: 8px;
+            bottom: 25px;
+
+
+        }
+
+        nav img {
+            height: 45px;
+            margin: -40px 0;
+            border: 2px solid lightgray;
+            border-radius: 27px;
+        }
+        footer {
+            background-color: rgba(63, 58, 58, 0.511);
+            height: 200px;
+        }
+
+        .footer {
+            margin: 200px 100px;
+            DISPLAY: flex;
+            justify-content: space-evenly;
+        }
+
+        .footer-second ul li  {
+            text-decoration :none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a href="https://instagram.com/karano1o" target="_blank"><img src="ks.png"></a>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">SERVICES</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/">CONTACTS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi , there i m <span class="color">karan</span><br>
+                and i m a passionate<br>
+                <span id="element"></span>
+            </div>
+
+            <div class="rightsection">
+                <img src="dev.png">
+            </div>
+        </section>
+        <hr>
+
+        <section class="secondsection">
+            <span class="grey-text">What i done so far</span>
+            <h1>My Work experience</h1>
+            <div class="horizental">
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                KARAN-PORTFOLIO
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">SERVICES</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer', '&amp; Video editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
